@@ -9,6 +9,9 @@
         height: 400px;
         top: 100px;
     }
+    #navbar>ul>li.sub-menu > ul{
+        top:100px;
+    }
 }
 @media only screen and (max-width: 410px){
     #navbar ul{
