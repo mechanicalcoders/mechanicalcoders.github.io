@@ -33,4 +33,7 @@
     .ancher-style-2{
         font-size: 2.2rem;;
     }
+    #navbar>ul>li.sub-menu > ul{
+        top: 150px;
+    }
 }
