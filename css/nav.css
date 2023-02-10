@@ -98,3 +98,11 @@ html{
     opacity: 1;
 }
 /* navbar ended */
+footer{
+    position:static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 5px;
+    text-align: center;
+}
