@@ -3,9 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 html{
     scroll-behavior: smooth;
     font-size: 12px;
+}
+.main_body{
+    flex-grow: 1;
 }
 /* navbar start */
 #navbar{
@@ -100,8 +108,6 @@ html{
 /* navbar ended */
 footer{
     position:static;
-    left: 0;
-    bottom: 0;
     width: 100%;
     margin-bottom: 5px;
     text-align: center;
